@@ -10,8 +10,7 @@ Future<void> main(List<String> arguments) async {
   }
   final city = arguments.first;
   final api = geocodeApiClient();
-  // final latlngID = await api.getLatLng(city);
-  // print(latlngID);
+  
   try {
     final weather = await api.getWeather(city);
     print(weather);
