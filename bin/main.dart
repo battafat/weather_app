@@ -25,5 +25,3 @@ Future<void> main(List<String> arguments) async {
   
 }
 
-  // final locationID = await api.getLatLng(city);
-  // print(locationID);
