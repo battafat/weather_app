@@ -9,10 +9,13 @@ environment:
 # Add regular dependencies here.
 dependencies:
   # path: ^1.8.0
-  http: 0.13.1
+  envied: ^0.5.3
+  http: ^1.2.0
 
 dev_dependencies:
   # lints: ^2.0.0
   # test: ^1.21.0
   pedantic: ^1.9.0
+  build_runner: ^2.4.8
+  envied_generator: ^0.5.3
 

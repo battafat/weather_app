@@ -1,4 +1,5 @@
-// import 'package:weather_app/weather_app.dart' as weather_app;
+// run the app by typing the following in the terminal: 
+// dart bin/main.dart <your city>
 
 import 'dart:io';
 import 'weather_api_client.dart';
